@@ -17,6 +17,26 @@
     border-radius: 5px;
 }
 
+.btn-secondary {
+    background-color: #FFF8F3;
+    border: 2px solid #FD6E0A;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* header style  */
+header {
+    background-color: #FFF8F3;
+    height: 830px;
+    background-image: url(./images/developer.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 /* nav styels  */
 nav {
     display: flex;
@@ -49,4 +69,30 @@ nav ul li a {
     font-size: 20px;
     font-weight: 400;
     color: #474747;
+}
+
+.header-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header-banner-info h3 {
+    color: #474747;
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.header-banner-info h2 {
+    color: #181818;
+    font-weight: 700;
+    font-size: 85px;
+}
+
+.header-banner-info p {
+    width: 580px;
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
 }
