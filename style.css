@@ -32,9 +32,9 @@
 header {
     background-color: #FFF8F3;
     height: 830px;
-    background-image: url(./images/developer.png);
+    background-image: url(./images/developer.png), url('./images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: top left, bottom right;
 }
 
 /* nav styels  */
@@ -75,6 +75,7 @@ nav ul li a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 35px 0 230px;
 }
 
 
@@ -95,4 +96,13 @@ nav ul li a {
     color: #757575;
     font-weight: 400;
     font-size: 18px;
+}
+
+.header-banner-btn {
+    display: flex;
+    align-items: center;
+}
+
+.header-banner-btn button {
+    margin-left: 20px;
 }
