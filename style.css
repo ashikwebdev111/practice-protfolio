@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
 .open-sans-bodyfont {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -227,4 +233,139 @@ nav ul li a {
     font-size: 20px;
     width: 201px;
     text-align: left;
+}
+
+.resume {
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.resume-content {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 20px;
+
+}
+
+.resume-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+
+}
+
+
+.education h3,
+.experience h3 {
+    color: #474747;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+.education-list h4,
+.experience-list h4 {
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.education-list h5,
+.experience-list h5 {
+    color: #474747;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.education-list p,
+.experience-list p {
+    width: 511px;
+    color: 400;
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+hr {
+    color: #D1D1D1;
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+footer {
+    background-color: #FFF8F3;
+
+    margin-top: 113px;
+    padding-bottom: 130px;
+
+}
+
+.footer-content {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+.lets-connect h3 {
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.lets-connect p {
+    width: 562px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.lets-message h3 {
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.name-input,
+.email-input {
+    width: 461px;
+    height: 64px;
+    border: 0;
+    background-color: #FFFFFF;
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.message-input {
+    width: 461px;
+    height: 180px;
+    border: 0;
+    background-color: #FFFFFF;
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px;
 }
