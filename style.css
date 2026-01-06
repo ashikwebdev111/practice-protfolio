@@ -369,3 +369,218 @@ form {
     border-radius: 5px;
     padding: 10px;
 }
+
+
+/* Media Quearay  */
+
+@media screen and (max-width: 576px) {
+
+    /* General */
+    header {
+        height: auto;
+        background-position: top center, bottom center;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0;
+    }
+
+    .header-banner {
+        flex-direction: column;
+        margin: 20px;
+        text-align: center;
+    }
+
+    .header-banner img {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .header-banner-info h2 {
+        font-size: 45px;
+    }
+
+    .header-banner-info h3 {
+        font-size: 30px;
+    }
+
+    .header-banner-info p {
+        width: 100%;
+    }
+
+    .header-banner-btn {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .header-banner-btn button {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    /* About Section */
+    .about {
+        width: 100%;
+        height: auto;
+        margin-top: 80px;
+        padding: 20px;
+    }
+
+    .about-content {
+        width: 100%;
+    }
+
+    .about-content p {
+        width: 100%;
+    }
+
+    .about-me-contact {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* What I Do */
+    .what-i {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .what-i p {
+        width: 100%;
+    }
+
+    .skills-cards {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .skill-card {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Resume */
+    .resume {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .resume-content {
+        flex-direction: column;
+    }
+
+    .education-list p,
+    .experience-list p {
+        width: 100%;
+        text-align: left;
+    }
+
+    /* Footer */
+    .footer-content {
+        flex-direction: column;
+        gap: 40px;
+        padding: 0 20px;
+    }
+
+    .lets-connect p {
+        width: 100%;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .name-input,
+    .email-input,
+    .message-input {
+        width: 100%;
+    }
+}
+
+/* for tablate  */
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
+    header {
+        height: auto;
+    }
+
+    nav {
+        justify-content: space-between;
+        padding: 0 40px;
+    }
+
+    .header-banner {
+        margin: 0 40px;
+        gap: 30px;
+    }
+
+    .header-banner img {
+        width: 350px;
+    }
+
+    .header-banner-info p {
+        width: 100%;
+    }
+
+    /* About */
+    .about {
+        width: 100%;
+        height: auto;
+        padding: 40px;
+    }
+
+    .about-content {
+        width: 100%;
+    }
+
+    .about-content p {
+        width: 100%;
+    }
+
+    /* What I Do */
+    .what-i {
+        width: 100%;
+        padding: 0 40px;
+    }
+
+    .skills-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .skill-card {
+        width: 45%;
+        height: auto;
+    }
+
+    /* Resume */
+    .resume {
+        width: 100%;
+        padding: 0 40px;
+    }
+
+    .resume-content {
+        flex-direction: column;
+    }
+
+    /* Footer */
+    .footer-content {
+        flex-wrap: wrap;
+        gap: 40px;
+        padding: 0 40px;
+    }
+
+    .name-input,
+    .email-input,
+    .message-input {
+        width: 100%;
+    }
+}
